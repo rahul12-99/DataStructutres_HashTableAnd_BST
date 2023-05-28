@@ -8,19 +8,6 @@ public class HashMap {
     }
 
     /**
-     * Method to count frequency of word in given string
-     */
-    public void countOfOccurrence() {
-        String sentence = "To be or not to be";
-        String[] words = sentence.toLowerCase().split(" ");
-        for (String word : words) {
-            put(word, 1);
-        }
-        int frequency = get("be");
-        System.out.println("Frequency of given key is " + frequency);
-    }
-
-    /**
      * Method to map key,value pair on the hashmap
      */
     public void put(String key, Integer value) {
